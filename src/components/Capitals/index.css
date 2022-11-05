@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+  background-size: cover;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.select {
+  display: flex;
+  flex-direction: row;
+}
+.option {
+  height: 50px;
+  width: 150px;
+}
+.para {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  margin-left: 5px;
+}
+.hidden {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  font-style: italic;
+  color: blueviolet;
+  margin-right: 5%;
+}
